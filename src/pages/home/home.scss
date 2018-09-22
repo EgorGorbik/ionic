@@ -1,0 +1,37 @@
+page-home {
+.login-button, .signin-button{
+  background-color:#8E44AD;
+  color: #FFC500;
+  width:80%;
+  margin:0 auto;
+
+}
+  .fp{
+    color:#8E44AD ;
+    text-align: center;
+  }
+  .h{
+    min-height:10px;
+    height:30px;
+  }
+  .inpt{
+    width:80%;
+    margin:0 auto;
+  }
+  body{
+    background-color: #FFC500;
+  }
+
+  ion-item{
+    margin-top:20px;
+  }
+  h3{
+    color:white;
+  }
+  .music{
+    width:50%;
+    height:50%;
+    float:right;
+
+  }
+}
