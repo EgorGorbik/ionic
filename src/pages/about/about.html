@@ -22,27 +22,27 @@
             <h3>Name</h3>
             <ion-item >
               <div class="h">
-                <ion-input  class="h" [(ngModel)]="username"   ></ion-input>
+                <ion-input  class="h"   type="text" ></ion-input>
               </div>
             </ion-item>
 
             <h3>Second Name</h3>
             <ion-item >
               <div class="h">
-                <ion-input  class="h"[(ngModel)]="username"  type="text" ></ion-input>
+                <ion-input  class="h" type="text" ></ion-input>
               </div>
             </ion-item>
 
             <h3>Email</h3>
             <ion-item >
               <div class="h">
-                <ion-input  class="h"[(ngModel)]="username"  type="text" ></ion-input>
+                <ion-input  class="h"  type="text" ></ion-input>
               </div>
             </ion-item>
 
             <h3>Password</h3>
             <ion-item>
-              <ion-input  class="h"[(ngModel)]="password"  type="password"></ion-input>
+              <ion-input  class="h"  type="password"></ion-input>
             </ion-item>
 
             <h3>Confirm Password</h3>
@@ -50,10 +50,12 @@
               <ion-input  class="h"[(ngModel)]="password"  type="password"></ion-input>
             </ion-item>
 
+
           </ion-list>
+          <button ion-button block outline (click)="login()" color="secondary" class="login-button h"><font size="3">Next</font></button>
         </div>
 
-        <button ion-button block outline (click)="login()" color="secondary" class="login-button h"><font size="3">Next</font></button>
+
 
       </ion-col>
     </ion-row>

@@ -34,14 +34,15 @@ page-about {
     color:white;
   }
   .music{
-    width:50%;
-    height:50%;
-    float:right;
-
+    position: absolute;
+    z-index:1;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 10%;
   }
   .im1{
     position: absolute;
-    z-index:1;
+
   }
 img{
   filter: blur(4px);
